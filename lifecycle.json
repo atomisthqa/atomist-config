@@ -2,9 +2,9 @@
   "configuration": {
     "push": {
       "configuration": {
-        "emoji-style": "default",
+        "emoji-style": "atomist",
         "fingerprints": {
-          "about-hint": "true",
+          "about-hint": "false",
           "render-unchanged": "true",
           "style": "fingerprint-inline",
           "data": "${file://fingerprints.json}"
