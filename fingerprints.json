@@ -13,5 +13,13 @@
             "Spring.+",
             "Travis.+"
         ]
+    },
+    "fingerprints": {
+        "rest": {
+                "name": "SpringRestMVC",
+                "description": "",
+                "level": "warning",
+                "status": "failure"
+            }
     }
 }
