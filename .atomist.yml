@@ -16,3 +16,21 @@ editor:
     - "follower": "springboot1"
     - "featureName": "SpringBoot.Structure"
 
+---
+kind: "operation"
+client: "com.atomist:rug"
+version: "1.0.0-20170728065612"
+editor:
+  name: "AddFeatureFollowerEditor"
+  group: "atomist"
+  artifact: "spring-team-handlers"
+  version: "0.7.9-20170727202817"
+  origin:
+    repo: "git@github.com:atomisthq/spring-team-handlers.git"
+    branch: "94530c046256a6bfb832574805e3bd2d763161d6"
+    sha: "94530c0"
+  parameters:
+    - "broadcaster": "spring-rest-seed"
+    - "follower": "springboot1"
+    - "featureName": "SpringBoot.Structure"
+
