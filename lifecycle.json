@@ -14,8 +14,6 @@
         },
         "generic": {
           "functions": [
-              "${file://cf-buttons.js}",
-              "${file://cf-push-button.js}"
           ]
         }
       }
