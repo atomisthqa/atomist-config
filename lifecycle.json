@@ -10,7 +10,7 @@
           "data": "${file://fingerprints.json}"
         },
         "build": {
-          "style": "decorator"
+          "style": "footer"
         },
         "generic": {
           "functions": [
