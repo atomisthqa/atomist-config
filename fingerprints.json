@@ -1,5 +1,4 @@
 {
-    "metricsUrl": "https://webhook-staging.atomist.services/atomist/fingerprints",
     "repositories": {
         "spring-rest-seed": [
             "Docker.+",
@@ -13,13 +12,5 @@
             "Spring.+",
             "Travis.+"
         ]
-    },
-    "fingerprints": {
-        "rest": {
-                "name": "SpringRestMVC",
-                "description": "",
-                "level": "warning",
-                "status": "failure"
-            }
     }
 }
