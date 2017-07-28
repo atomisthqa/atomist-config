@@ -1,4 +1,5 @@
-{
+{   
+    "metricsUrl": "https://webhook-staging.atomist.services/atomist/fingerprints",
     "repositories": {
         "spring-rest-seed": [
             "Docker.+",
