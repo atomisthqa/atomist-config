@@ -4,13 +4,13 @@
       "configuration": {
         "emoji-style": "default",
         "fingerprints": {
-          "about-hint": "true",
+          "about-hint": "false",
           "render-unchanged": "true",
           "style": "fingerprint-inline",
           "data": "${file://fingerprints.json}"
         },
         "build": {
-          "style": "footer"
+          "style": "decorator"
         },
         "generic": {
           "functions": [
