@@ -124,3 +124,21 @@ editor:
     - "follower": "sylvain-test4"
     - "featureName": "SpringBoot.Structure"
 
+---
+kind: "operation"
+client: "com.atomist:rug"
+version: "1.0.0-20170728065612"
+editor:
+  name: "AddFeatureFollowerEditor"
+  group: "atomist"
+  artifact: "spring-team-handlers"
+  version: "0.7.10-20170802170319"
+  origin:
+    repo: "git@github.com:atomisthq/spring-team-handlers.git"
+    branch: "2b0664c20e421b9584ce077b7329811cb6c99e32"
+    sha: "2b0664c"
+  parameters:
+    - "broadcaster": "spring-boot-seed"
+    - "follower": "ddx10"
+    - "featureName": "SpringBoot.Structure"
+
