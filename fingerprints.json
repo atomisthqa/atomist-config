@@ -13,5 +13,19 @@
             "Spring.+",
             "Travis.+"
         ]
+    },
+    "fingerprints": {
+        "deps": {
+            "name": "MavenDependencies",
+            "description": "",
+            "level": "warning",
+            "status": "success"
+        },
+        "docker": {
+            "name": "DockerfileFeature",
+            "description": "",
+            "level": "warning",
+            "status": "failure"
+        }
     }
 }
