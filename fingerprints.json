@@ -5,7 +5,8 @@
             "Docker.+",
             "Maven.+",
             "Spring.+",
-            "Travis.+"
+            "Travis.+",
+            "Jenkins.+"
         ],
         "$default$": [
             "Docker.+",
