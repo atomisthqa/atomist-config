@@ -11,7 +11,8 @@
             "Docker.+",
             "Maven.+",
             "Spring.+",
-            "Travis.+"
+            "Travis.+",
+            "Jenkins.*"
         ]
     },
     "fingerprints": {
