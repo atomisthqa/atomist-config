@@ -28,6 +28,12 @@
             "description": "",
             "level": "warning",
             "status": "failure"
+        },
+        "jenkins": {
+            "name": "JenkinsfileFeature",
+            "description": "",
+            "level": "warning",
+            "status": "failure"
         }
     }
 }
