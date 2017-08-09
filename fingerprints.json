@@ -12,7 +12,7 @@
             "Maven.+",
             "Spring.+",
             "Travis.+",
-            "Jenkins.*"
+            "Jenkins.+"
         ]
     },
     "fingerprints": {
