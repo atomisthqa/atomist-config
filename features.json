@@ -21,6 +21,16 @@
                     ]
                 }
             ]
+        },
+        "springer-spaniel-seed": {
+            "features": [
+                {
+                    "name": "SpringBoot.Structure",
+                    "followers": [
+                        "ddv1"
+                    ]
+                }
+            ]
         }
     }
 }

@@ -142,3 +142,21 @@ editor:
     - "follower": "ddx10"
     - "featureName": "SpringBoot.Structure"
 
+---
+kind: "operation"
+client: "com.atomist:rug"
+version: "1.0.0-20170728065612"
+editor:
+  name: "AddFeatureFollowerEditor"
+  group: "atomist"
+  artifact: "spring-team-handlers"
+  version: "0.8.0-20170810233312"
+  origin:
+    repo: "git@github.com:atomisthq/spring-team-handlers.git"
+    branch: "c63956cf3ca1262455d9f2eca55cdd8c210f7835"
+    sha: "c63956c"
+  parameters:
+    - "broadcaster": "springer-spaniel-seed"
+    - "follower": "ddv1"
+    - "featureName": "SpringBoot.Structure"
+
