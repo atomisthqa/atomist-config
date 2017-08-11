@@ -160,3 +160,21 @@ editor:
     - "follower": "ddv1"
     - "featureName": "SpringBoot.Structure"
 
+---
+kind: "operation"
+client: "com.atomist:rug"
+version: "1.0.0-20170809213747"
+editor:
+  name: "AddFeatureFollowerEditor"
+  group: "atomist"
+  artifact: "spring-team-handlers"
+  version: "0.8.126-20170811204809"
+  origin:
+    repo: "git@github.com:atomisthq/spring-team-handlers.git"
+    branch: "5f05a9884fbb4df3932ad053f09b66eb28633f0f"
+    sha: "5f05a98"
+  parameters:
+    - "broadcaster": "spring-boot-seed"
+    - "follower": "ddt1"
+    - "featureName": "SpringBoot.Structure"
+
