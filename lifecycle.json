@@ -1,1 +1,23 @@
-{ "show-statuses-on-push" : "true" }
+{
+  "configuration": {
+    "push": {
+      "configuration": {
+        "emoji-style": "atomist",
+        "show-statuses-on-push": "true",
+        "fingerprints": {
+          "about-hint": "false",
+          "render-unchanged": "true",
+          "style": "fingerprint-inline",
+          "data": "${file://fingerprints.json}"
+        },
+        "build": {
+          "style": "decorator"
+        },
+        "generic": {
+          "functions": [
+          ]
+        }
+      }
+    }
+  }
+}
