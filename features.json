@@ -37,6 +37,16 @@
                     ]
                 }
             ]
+        },
+        "spring-rest-seed1": {
+            "features": [
+                {
+                    "name": "SpringBoot.Structure",
+                    "followers": [
+                        "tanyatest11"
+                    ]
+                }
+            ]
         }
     }
 }
