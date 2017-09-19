@@ -1,5 +1,5 @@
-{   
-    "metricsUrl": "https://webhook-staging.atomist.services/atomist/fingerprints",
+{
+    "metricsUrl": "https://webhook-staging.atomist.services/atomist/fingerprints/teams/T1L0VDKJP",
     "repositories": {
         "spring-rest-seed": [
             "Docker.+",
@@ -16,6 +16,15 @@
             "Jenkins.+"
         ]
     },
+    "snapshotters": {
+        "SpringBootApplicationProperties": {
+            "filePatterns": [
+                "src/main/resources/application.properties",
+                "src/main/resources/bootstrap.properties",
+                "src/main/resources/application-*.properties"
+            ]
+        }
+    },
     "fingerprints": {
         "deps": {
             "name": "MavenDependencies",
@@ -29,7 +38,31 @@
             "level": "warning",
             "status": "failure"
         },
-        "jenkins": {
+         "plugins": {
+            "name": "MavenPlugins",
+            "description": "",
+            "level": "warning",
+            "status": "success"
+        },
+        "properties": {
+            "name": "SpringBootApplicationProperties",
+            "description": "",
+            "level": "warning",
+            "status": "failure"
+        },
+        "rest": {
+            "name": "SpringRestMVC",
+            "description": "",
+            "level": "warning",
+            "status": "failure"
+        },
+        "travis": {
+            "name": "TravisFeature",
+            "description": "",
+            "level": "warning",
+            "status": "failure"
+        },
+       "jenkins": {
             "name": "JenkinsfileFeature",
             "description": "",
             "level": "warning",
