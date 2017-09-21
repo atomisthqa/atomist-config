@@ -10,6 +10,10 @@
           "style": "fingerprint-inline",
           "data": "${file://fingerprints.json}"
         },
+        "branches": [
+          "$default$",
+          "^release-"
+        ],
         "build": {
           "style": "decorator"
         },
