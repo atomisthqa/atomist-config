@@ -1,5 +1,5 @@
 {
-    "metricsUrl": "https://webhook-staging.atomist.services/atomist/fingerprints/teams/T1L0VDKJP",
+    "metricsUrl": "https://webhook-staging.atomist.services/atomist/fingerprints/teams/$teamId$",
     "repositories": {
         "spring-rest-seed": [
             "Docker.+",
