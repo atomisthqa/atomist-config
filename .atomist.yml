@@ -502,3 +502,21 @@ editor:
     - "follower": "fidididi"
     - "featureName": "SpringBoot.Structure"
 
+---
+kind: "operation"
+client: "com.atomist:rug"
+version: "1.0.0-20170816122823"
+editor:
+  name: "AddFeatureFollowerEditor"
+  group: "atomist"
+  artifact: "spring-team-handlers"
+  version: "0.13.1"
+  origin:
+    repo: "https://github.com/atomisthq/spring-team-handlers.git"
+    branch: "fingerprint-team-286"
+    sha: "c714921"
+  parameters:
+    - "broadcaster": "spring-boot-seed"
+    - "follower": "tanyatest3"
+    - "featureName": "SpringBoot.Structure"
+
